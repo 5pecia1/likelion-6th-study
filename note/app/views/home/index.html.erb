@@ -1,2 +1,9 @@
 <h1>post list page!</h1>
 <a href='/home/new'>새글 쓰기</a>
+<br>
+<% @posts.each do |x| %>
+    title : <%= x.title%><br>
+    content : <%=x.content%><br>
+    <a href='/home/destroy/<%=x.id%>'>delete</a><br>
+    -------------------------<br>
+<%end%>
