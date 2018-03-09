@@ -36,10 +36,20 @@
     opacity: .6;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 header {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -49,6 +59,10 @@ header .line {
 
 h1 {
     margin:0px;
+}
+
+h2, h3{
+    text-align: center;
 }
 
 nav {
