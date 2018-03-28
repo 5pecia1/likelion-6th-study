@@ -1,0 +1,22 @@
+* {
+    color: white;
+}
+
+.header {
+    background-color: red;
+}
+
+.content {
+    background-color: yellow;
+}
+
+.article {
+    background-color: purple;
+}
+
+.footer {
+    background-color: blue;
+}
+
+#main-image {
+}
