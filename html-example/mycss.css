@@ -8,10 +8,16 @@
 
 .content {
     background-color: yellow;
+    width: 600px;
+    position: relative;
+    left: 100px;
 }
 
 .article {
     background-color: purple;
+    width: 300px;
+    position: relative;
+    left: 150px;
 }
 
 .footer {
