@@ -23,8 +23,7 @@
 .article {
     background-color: rgba(128, 0, 128, 0.7);
     width: 300px;
-    position: relative;
-    left: 150px;
+    margin:0 auto;
 }
 
 .footer {
